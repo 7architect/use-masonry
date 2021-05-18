@@ -1,0 +1,30 @@
+{
+  "name": "useMasonry",
+  "main": "./dist/use-masonry.cjs.js",
+  "module": "./dist/use-masonry.esm.js",
+  "files": "./dist",
+  "exports": {
+    ".": {
+      "import": "./dist/use-masonry.esm.js",
+      "require": "/dist/use-masonry.cjs.js"
+    },
+    "./": "./"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "rollup": "^2.48.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4",
+    "vitepress": "^0.13.2"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.2.2",
+    "vue": "^3.0.11"
+  }
+}
