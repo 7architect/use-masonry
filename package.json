@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "@seventharchitect/usemasonry",
   "main": "./dist/use-masonry.cjs.js",
   "module": "./dist/use-masonry.esm.js",
