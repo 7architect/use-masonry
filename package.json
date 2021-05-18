@@ -1,9 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "useMasonry",
+  "name": "@seventharchitect/usemasonry",
   "main": "./dist/use-masonry.cjs.js",
   "module": "./dist/use-masonry.esm.js",
-  "files": "./dist",
   "exports": {
     ".": {
       "import": "./dist/use-masonry.esm.js",
@@ -27,5 +26,24 @@
   "dependencies": {
     "masonry-layout": "^4.2.2",
     "vue": "^3.0.11"
-  }
+  },
+  "description": "> full documentation on [Desandro Masonry lib](https://masonry.desandro.com)",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7architect/use-masonry.git"
+  },
+  "keywords": [
+    "vue",
+    "masonry",
+    "composition"
+  ],
+  "author": "Katkov.alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7architect/use-masonry/issues"
+  },
+  "homepage": "https://github.com/7architect/use-masonry#readme"
 }
