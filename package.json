@@ -21,7 +21,7 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4",
-    "vitepress": "^0.13.2"
+    "vitepress": "0.22.4"
   },
   "dependencies": {
     "masonry-layout": "^4.2.2",
