@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "rollup": "^2.48.0",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "0.32.1",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4",
     "vitepress": "^0.13.2"
